@@ -21,14 +21,14 @@ console.log(10 < 150)
 
 console.log("1 is greater than or equal to 0") 
 // write the javascript code below 
-
-// my guess:
+console.log(1>=0);
+// my guess: true
 
 
 console.log("7 is greater than 15")
 // write the javascript code below 
-
-// my guess:
+console.log(7>=15);
+// my guess: false
 
 
 
@@ -36,26 +36,26 @@ console.log("7 is greater than 15")
 
 console.log('The string "apple" is equal "apple"')
 // write the javascript code below
-
-// my guess:
+console.log("apple"=="apple");
+// my guess: true
 
 
 console.log('The string "apple" is equal "orange"')
 // write the javascript code below
-
-// my guess:
+console.log("apple"=="orange");
+// my guess: false
 
 
 console.log('The string "apple" is not equal to "apple"')
 // write the javascript code below
-
-// my guess:
+console.log("apple"!="apple");
+// my guess: false
 
 
 console.log('The string "apple" is not equal to "orange""')
 // write the javascript code below
-
-// my guess:
+console.log("apple"!="orange");
+// my guess: true
 
 
 
@@ -64,20 +64,20 @@ var myFavoriteColor = "blue"
 
 console.log('The variable myFavoriteColor is equal to the string "blue"')
 // write the javascript code below
-
-// my guess:
+console.log(myFavoriteColor=="blue");
+// my guess:true
 
 
 console.log('The variable myFavoriteColor is not equal to the string "red"')
 // write the javascript code below
-
-// my guess:
+console.log(myFavoriteColor!="red");
+// my guess: true
 
 
 console.log('The variable myFavoriteColor is equal to the string "purple"')
 // write the javascript code below
-
-// my guess:
+console.log(myFavoriteColor=="purple");
+// my guess: false
 
 
 
@@ -92,19 +92,22 @@ var likesCats = true;
 
 // Predict if the combination will be true, then code it out to see if you're right.
 console.log("I like computers and I like sports")
-// my guess: 
+// my guess: true
 // write the javascript code below
+console.log(likesComputers&&likesSports);
 
 
 // We can see whether one of two booleans is true using || (OR)
 console.log("I like sports and I like knitting")
-// my guess: 
+// my guess: false
 // write the javascript code below
+console.log(likesSports&&likesKnitting);
 
 
 console.log("I like knitting or I like dogs")
-// my guess: 
+// my guess: false
 // write the javascript code below
+console.log(likesKnitting||likesDogs);
 
 
 });
